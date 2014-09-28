@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright 2012 FuseSource
+  ~
+  ~    Licensed under the Apache License, Version 2.0 (the "License");
+  ~    you may not use this file except in compliance with the License.
+  ~    You may obtain a copy of the License at
+  ~
+  ~        http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~    Unless required by applicable law or agreed to in writing, software
+  ~    distributed under the License is distributed on an "AS IS" BASIS,
+  ~    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~    See the License for the specific language governing permissions and
+  ~    limitations under the License.
+  -->
+<wsdl:definitions name="News"
+                  targetNamespace="http://vidur.com/news"
+                  xmlns="http://schemas.xmlsoap.org/wsdl/"
+                  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+                  xmlns:tns="http://vidur.com/news"
+                  xmlns:x1="http://vidur.com/news/model"
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <wsdl:types>
+    <!-- define a schema to be used by this service; can also be imported -->
+    <schema targetNamespace="http://vidur.com/news/model"
+            xmlns="http://www.w3.org/2001/XMLSchema"
+            elementFormDefault="qualified">
+      <element name="saveNews">
+        <complexType>
+          <sequence>
+            <element name="saveNewsRequestType" type="string"/>
+          </sequence>
+        </complexType>
+      </element>
+      <element name="saveNewsResponse">
+        <complexType>
+          <sequence>
+            <element name="saveNewsResponseType" type="string"/>
+          </sequence>
+        </complexType>
+      </element>
+      <element name="collectNews">
+        <complexType>
+          <sequence>
+            <element name="collectNewsRequestType" type="string" minOccurs="1" maxOccurs="1" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="collectNewsResponse">
+        <complexType>
+          <sequence>
+            <element name="collectNewsResponseType" type="string" minOccurs="1" maxOccurs="1" />
+          </sequence>
+        </complexType>
+       </element>
+      <element name="faultDetail">
+        <complexType>
+          <sequence>
+            <element name="minor" type="short"/>
+            <element name="major" type="short"/>
+          </sequence>
+        </complexType>
+      </element>
+    </schema>
+  </wsdl:types>
+
+  <!-- map message types to schema elements -->
+  <wsdl:message name="saveNewsRequest">
+    <wsdl:part name="in" element="x1:saveNews"/>
+  </wsdl:message>
+  <wsdl:message name="saveNewsResponse">
+    <wsdl:part name="out" element="x1:saveNewsResponse"/>
+  </wsdl:message>
+  <wsdl:message name="saveNewsFault">
+    <wsdl:part name="faultDetail" element="x1:faultDetail"/>
+  </wsdl:message>
+  <wsdl:message name="collectNewsRequest">
+    <wsdl:part name="in" element="x1:collectNews"/>
+  </wsdl:message>
+  <wsdl:message name="collectNewsResponse">
+    <wsdl:part name="out" element="x1:collectNewsResponse"/>
+  </wsdl:message>
+  <wsdl:message name="collectNewsFault">
+    <wsdl:part name="faultDetail" element="x1:faultDetail"/>
+  </wsdl:message>
+
+  <!-- maps operations to message types -->
+  <wsdl:portType name="News"> 
+    <wsdl:operation name="saveNews">
+      <wsdl:input name="saveNewsRequest" message="tns:saveNewsRequest"/>
+      <wsdl:output name="saveNewsResponse" message="tns:saveNewsResponse"/>
+      <wsdl:fault name="saveNewsFault" message="tns:saveNewsFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="collectNews">
+      <wsdl:input name="collectNewsRequest" message="tns:collectNewsRequest"/>
+      <wsdl:output name="collectNewsResponse" message="tns:collectNewsResponse"/>
+      <wsdl:fault name="collectNewsFault" message="tns:collectNewsFault"/>
+    </wsdl:operation>
+  </wsdl:portType>
+
+  <!-- maps SOAP operations to the way that input, output and fault are used -->
+  <wsdl:binding name="News_SOAPBinding" type="tns:News">
+    
+    <!-- 
+      the style attribute indicates whether the operation is RPC-oriented 
+      (messages containing parameters and return values) or document-oriented 
+      (message containing document(s)) 
+    -->
+    <soap:binding style="document" 
+         transport="http://schemas.xmlsoap.org/soap/http"/>
+
+    <wsdl:operation name="saveNews">
+        <soap:operation style="document"/>
+        <wsdl:input>
+            <soap:body use="literal"/>
+        </wsdl:input>
+        <wsdl:output>
+            <soap:body use="literal"/>
+        </wsdl:output>
+        <wsdl:fault name="saveNewsFault">
+            <soap:fault name="saveNewsFault" use="literal"/>
+        </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="collectNews">
+        <soap:operation style="document"/>
+        <wsdl:input>
+            <soap:body use="literal"/>
+        </wsdl:input>
+        <wsdl:output>
+            <soap:body use="literal"/>
+        </wsdl:output>
+        <wsdl:fault name="collectNewsFault">
+            <soap:fault name="collectNewsFault" use="literal"/>
+        </wsdl:fault>
+    </wsdl:operation>  
+  </wsdl:binding>
+
+  <!-- maps a service binding to a service URL -->
+  <wsdl:service name="NewsService">
+    <wsdl:port binding="tns:News_SOAPBinding" name="SoapPort">
+      <soap:address location="http://localhost:9000/SoapContext/SoapPort"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

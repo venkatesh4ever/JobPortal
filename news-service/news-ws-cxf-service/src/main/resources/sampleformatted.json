@@ -1,0 +1,319 @@
+{"responseData": 
+	{"results":
+		[
+		 	{
+		 		"GsearchResultClass":"GnewsSearch",
+		 		"clusterUrl":"http://news.google.com/news/story?ncl\u003ddIFG3ICIJVK_h1MnDUl_JYXd9xYAM\u0026hl\u003den\u0026ned\u003dus",
+		 		"content":"President \u003cb\u003eBarack Obama\u003c/b\u003e on Wednesday confirmed the authenticity of a video released by the Islamic State of Iraq and the Levant that showed the beheading of American journalist Steven Sotloff and vowed that the murder will only “stiffen” the U.S.\u0026#39;\u0026nbsp;...",
+		 		"unescapedUrl":"http://www.politico.com/story/2014/09/obama-steven-sotloff-reaction-110540.html",
+		 		"url":"http%3A%2F%2Fwww.politico.com%2Fstory%2F2014%2F09%2Fobama-steven-sotloff-reaction-110540.html",
+		 		"title":"\u003cb\u003eBarack Obama\u003c/b\u003e vows \u0026#39;justice\u0026#39; for Steven Sotloff",
+		 		"titleNoFormatting":"Barack Obama vows \u0026#39;justice\u0026#39; for Steven Sotloff",
+		 		"location":"",
+		 		"publisher":"Politico",
+		 		"publishedDate":"Wed, 03 Sep 2014 03:06:35 -0700",
+		 		"signedRedirectUrl":"http://news.google.com/news/url?sa\u003dT\u0026ct2\u003dus\u0026fd\u003dS\u0026url\u003dhttp://www.politico.com/story/2014/09/obama-steven-sotloff-reaction-110540.html\u0026cid\u003d52778599839867\u0026ei\u003dEUUIVLDCOITb4waugYGoDg\u0026usg\u003dAFQjCNGJglBewzjs1bL4nZw4jkY0ysw30w",
+		 		"language":"en",
+		 		"image":
+		 		{
+		 			"url":"http://static.guim.co.uk/sys-images/Guardian/About/General/2014/9/3/1409770476956/US-President-Barack-Obama-013.jpg",
+		 			"tbUrl":"http://t0.gstatic.com/images?q\u003dtbn:ANd9GcRGWLW7FxXiCC5CQ_Lj_OA91B3R_ta15mAdtoJ_X5HZl3c7eokIKC2BxJKC",
+		 			"originalContextUrl":"http://www.theguardian.com/world/2014/sep/03/barack-obama-muslim-countries-help-crushing-isis",
+		 			"publisher":"The Guardian",
+		 			"tbWidth":80,
+		 			"tbHeight":48
+		 		},
+		 		"relatedStories":
+		 			[
+	 				 	{"unescapedUrl":"http://www.telegraph.co.uk/news/worldnews/barackobama/11071803/Watch-live-Barack-Obama-responds-to-beheading-of-Steven-Sotloff.html",
+	 				 		"url":"http%3A%2F%2Fwww.telegraph.co.uk%2Fnews%2Fworldnews%2Fbarackobama%2F11071803%2FWatch-live-Barack-Obama-responds-to-beheading-of-Steven-Sotloff.html",
+	 				 		"title":"Watch live: \u003cb\u003eBarack Obama\u003c/b\u003e responds to beheading of Steven Sotloff",
+	 				 		"titleNoFormatting":"Watch live: Barack Obama responds to beheading of Steven Sotloff",
+	 				 		"location":"",
+	 				 		"publisher":"Telegraph.co.uk",
+	 				 		"publishedDate":"Wed, 03 Sep 2014 01:52:08 -0700",
+	 				 		"signedRedirectUrl":"http://news.google.com/news/url?sa\u003dT\u0026ct2\u003dus\u0026fd\u003dS\u0026url\u003dhttp://www.telegraph.co.uk/news/worldnews/barackobama/11071803/Watch-live-Barack-Obama-responds-to-beheading-of-Steven-Sotloff.html\u0026cid\u003d52778599839867\u0026ei\u003dEUUIVLDCOITb4waugYGoDg\u0026usg\u003dAFQjCNFGyx0zDLYBbnp5-o2jK-Afp3_Mow",
+	 				 		"language":"en"
+	 				 	},
+	 				 	{"unescapedUrl":"http://www.theguardian.com/world/2014/sep/03/barack-obama-muslim-countries-help-crushing-isis",
+	 				 		"url":"http%3A%2F%2Fwww.theguardian.com%2Fworld%2F2014%2Fsep%2F03%2Fbarack-obama-muslim-countries-help-crushing-isis",
+	 				 		"title":"\u003cb\u003eBarack Obama\u003c/b\u003e looks to Muslim countries for help in crushing Isis",
+	 				 		"titleNoFormatting":"Barack Obama looks to Muslim countries for help in crushing Isis",
+	 				 		"location":"",
+	 				 		"publisher":"The Guardian",
+	 				 		"publishedDate":"Wed, 03 Sep 2014 12:06:47 -0700",
+	 				 		"signedRedirectUrl":"http://news.google.com/news/url?sa\u003dT\u0026ct2\u003dus\u0026fd\u003dS\u0026url\u003dhttp://www.theguardian.com/world/2014/sep/03/barack-obama-muslim-countries-help-crushing-isis\u0026cid\u003d52778599839867\u0026ei\u003dEUUIVLDCOITb4waugYGoDg\u0026usg\u003dAFQjCNGx_YTrb1IPyLLePQUcJsrurc-hog",
+	 				 		"language":"en"
+	 				 	},
+	 				 	{"unescapedUrl":"http://www.usnews.com/news/newsgram/articles/2014/09/03/president-barack-obama-responds-to-the-islamic-state-over-american-journalist-steven-sotloffs-death",
+ 				 			"url":"http%3A%2F%2Fwww.usnews.com%2Fnews%2Fnewsgram%2Farticles%2F2014%2F09%2F03%2Fpresident-barack-obama-responds-to-the-islamic-state-over-american-journalist-steven-sotloffs-death",
+ 				 			"title":"\u003cb\u003eObama\u003c/b\u003e on Islamic State: \u0026#39;Justice Will be Served\u0026#39;",
+ 				 			"titleNoFormatting":"Obama on Islamic State: \u0026#39;Justice Will be Served\u0026#39;",
+ 				 			"location":"",
+ 				 			"publisher":"U.S. News \u0026 World Report",
+ 				 			"publishedDate":"Wed, 03 Sep 2014 08:22:30 -0700",
+ 				 			"signedRedirectUrl":"http://news.google.com/news/url?sa\u003dT\u0026ct2\u003dus\u0026fd\u003dS\u0026url\u003dhttp://www.usnews.com/news/newsgram/articles/2014/09/03/president-barack-obama-responds-to-the-islamic-state-over-american-journalist-steven-sotloffs-death\u0026cid\u003d52778599839867\u0026ei\u003dEUUIVLDCOITb4waugYGoDg\u0026usg\u003dAFQjCNGijm_llAv43kxye7iFFmnw37owXQ",
+ 				 			"language":"en"},
+ 				 		{"unescapedUrl":"http://www.nola.com/politics/index.ssf/2014/09/obama_not_intimidated_beheadin.html",
+ 				 			"url":"http%3A%2F%2Fwww.nola.com%2Fpolitics%2Findex.ssf%2F2014%2F09%2Fobama_not_intimidated_beheadin.html",
+ 				 			"title":"President \u003cb\u003eBarack Obama\u003c/b\u003e of beheading videos: \u0026#39;We will not be intimidated\u0026#39;",
+ 				 			"titleNoFormatting":"President Barack Obama of beheading videos: \u0026#39;We will not be intimidated\u0026#39;",
+ 				 			"location":"",
+ 				 			"publisher":"The Times-Picayune - NOLA.com",
+ 				 			"publishedDate":"Wed, 03 Sep 2014 02:45:00 -0700",
+ 				 			"signedRedirectUrl":"http://news.google.com/news/url?sa\u003dT\u0026ct2\u003dus\u0026fd\u003dS\u0026url\u003dhttp://www.nola.com/politics/index.ssf/2014/09/obama_not_intimidated_beheadin.html\u0026cid\u003d52778599839867\u0026ei\u003dEUUIVLDCOITb4waugYGoDg\u0026usg\u003dAFQjCNErAVSXidXR6s8V8JHvToTok_b-qw",
+ 				 			"language":"en"
+ 				 		},
+ 				 		{"unescapedUrl":"http://www.msnbc.com/morning-joe/president-obama-degrade-and-destroy-isis",
+ 				 			"url":"http%3A%2F%2Fwww.msnbc.com%2Fmorning-joe%2Fpresident-obama-degrade-and-destroy-isis",
+ 				 			"title":"President \u003cb\u003eObama\u003c/b\u003e: We will \u0026#39;degrade and destroy\u0026#39; ISIS",
+ 				 			"titleNoFormatting":"President Obama: We will \u0026#39;degrade and destroy\u0026#39; ISIS",
+ 				 			"location":"",
+ 				 			"publisher":"MSNBC",
+ 				 			"publishedDate":"Wed, 03 Sep 2014 04:26:25 -0700",
+ 				 			"signedRedirectUrl":"http://news.google.com/news/url?sa\u003dT\u0026ct2\u003dus\u0026fd\u003dS\u0026url\u003dhttp://www.msnbc.com/morning-joe/president-obama-degrade-and-destroy-isis\u0026cid\u003d52778599839867\u0026ei\u003dEUUIVLDCOITb4waugYGoDg\u0026usg\u003dAFQjCNE9gpp8cOmwtGGWILWtwzoy--Gp7w",
+ 				 			"language":"en"
+ 				 		},
+ 				 		{"unescapedUrl":"http://www.wesh.com/news/president-barack-obama-on-journalists-beheading-we-will-not-be-intimidated/27851444",
+ 				 			"url":"http%3A%2F%2Fwww.wesh.com%2Fnews%2Fpresident-barack-obama-on-journalists-beheading-we-will-not-be-intimidated%2F27851444",
+ 				 			"title":"President \u003cb\u003eBarack Obama\u003c/b\u003e on journalist\u0026#39;s beheading: \u0026#39;We will not be intimidated\u0026#39;",
+ 				 			"titleNoFormatting":"President Barack Obama on journalist\u0026#39;s beheading: \u0026#39;We will not be intimidated\u0026#39;",
+ 				 			"location":"",
+ 				 			"publisher":"WESH Orlando",
+ 				 			"publishedDate":"Wed, 03 Sep 2014 04:48:56 -0700",
+ 				 			"signedRedirectUrl":"http://news.google.com/news/url?sa\u003dT\u0026ct2\u003dus\u0026fd\u003dS\u0026url\u003dhttp://www.wesh.com/news/president-barack-obama-on-journalists-beheading-we-will-not-be-intimidated/27851444\u0026cid\u003d52778599839867\u0026ei\u003dEUUIVLDCOITb4waugYGoDg\u0026usg\u003dAFQjCNGktj1g9S-9wDJTIpY-NC3Sbz1bEA",
+ 				 			"language":"en"
+ 				 		}
+ 				 	]
+		 	},
+		 	{
+ 				"GsearchResultClass":"GnewsSearch",
+ 				"clusterUrl":"http://news.google.com/news/story?ncl\u003dd2sHtX2gHz4SQHMTugtSGgwFKUfNM\u0026hl\u003den\u0026ned\u003dus",
+ 				"content":"President \u003cb\u003eBarack Obama\u003c/b\u003e traveled to Estonia on Wednesday to set the world straight on his intentions. In a speech at the wood-paneled Nordea Concert Hall in Tallinn, he spoke of “steadfast support,” “solemn duty,” “crystal clear” treaties and “concrete\u0026nbsp;...",
+ 				"unescapedUrl":"http://time.com/3264457/obama-europe-isis-nato/",
+ 				"url":"http%3A%2F%2Ftime.com%2F3264457%2Fobama-europe-isis-nato%2F",
+ 				"title":"\u003cb\u003eObama\u003c/b\u003e Offers Muddled Message to Europe in Face of Crises",
+ 				"titleNoFormatting":"Obama Offers Muddled Message to Europe in Face of Crises",
+ 				"location":"",
+ 				"publisher":"TIME",
+ 				"publishedDate":"Wed, 03 Sep 2014 09:51:57 -0700",
+ 				"signedRedirectUrl":"http://news.google.com/news/url?sa\u003dT\u0026ct2\u003dus\u0026fd\u003dS\u0026url\u003dhttp://time.com/3264457/obama-europe-isis-nato/\u0026cid\u003d52778599577970\u0026ei\u003dEUUIVLDCOITb4waugYGoDg\u0026usg\u003dAFQjCNEuudKkmrKZS8X_ZEjhuWUd_-oLiQ",
+ 				"language":"en",
+ 				"image":
+ 				{
+ 					"url":"http://timedotcom.files.wordpress.com/2014/09/barack-obama-estonia-europe.jpg?w\u003d280",
+ 					"tbUrl":"http://t2.gstatic.com/images?q\u003dtbn:ANd9GcQo0RaUX7Y3bHXRc6ngtPWYDAUT88jmAXVCB2ZCAiiHS1fTV8gfDTDElos",
+ 					"originalContextUrl":"http://time.com/3264457/obama-europe-isis-nato/",
+ 					"publisher":"TIME",
+ 					"tbWidth":80,
+ 					"tbHeight":53
+ 				},
+ 				"relatedStories":
+ 					[
+ 					 	{
+ 					 		"unescapedUrl":"http://www.bbc.com/news/uk-wales-south-east-wales-29036492",
+ 					 		"url":"http%3A%2F%2Fwww.bbc.com%2Fnews%2Fuk-wales-south-east-wales-29036492",
+ 					 		"title":"President \u003cb\u003eBarack Obama\u003c/b\u003e arrives in Wales ahead of Nato summit",
+ 					 		"titleNoFormatting":"President Barack Obama arrives in Wales ahead of Nato summit",
+ 					 		"location":"",
+ 					 		"publisher":"BBC News",
+ 					 		"publishedDate":"Tue, 02 Sep 2014 23:00:50 -0700",
+ 					 		"signedRedirectUrl":"http://news.google.com/news/url?sa\u003dT\u0026ct2\u003dus\u0026fd\u003dS\u0026url\u003dhttp://www.bbc.com/news/uk-wales-south-east-wales-29036492\u0026cid\u003d52778599577970\u0026ei\u003dEUUIVLDCOITb4waugYGoDg\u0026usg\u003dAFQjCNEiuWEoSt_oJ6FA6-y6xpYU90qZQQ",
+ 					 		"language":"en"
+ 					 	},
+ 					 	{
+ 					 		"unescapedUrl":"http://www.nbcnews.com/storyline/ukraine-crisis/barack-obama-u-s-will-not-tolerate-brazen-assault-ukraine-n194596",
+ 					 		"url":"http%3A%2F%2Fwww.nbcnews.com%2Fstoryline%2Fukraine-crisis%2Fbarack-obama-u-s-will-not-tolerate-brazen-assault-ukraine-n194596",
+ 					 		"title":"\u003cb\u003eBarack Obama\u003c/b\u003e: US Will Not Tolerate \u0026#39;Brazen Assault\u0026#39; on Ukraine",
+ 					 		"titleNoFormatting":"Barack Obama: US Will Not Tolerate \u0026#39;Brazen Assault\u0026#39; on Ukraine",
+ 					 		"location":"",
+ 					 		"publisher":"NBCNews.com",
+ 					 		"publishedDate":"Wed, 03 Sep 2014 06:30:29 -0700",
+ 					 		"signedRedirectUrl":"http://news.google.com/news/url?sa\u003dT\u0026ct2\u003dus\u0026fd\u003dS\u0026url\u003dhttp://www.nbcnews.com/storyline/ukraine-crisis/barack-obama-u-s-will-not-tolerate-brazen-assault-ukraine-n194596\u0026cid\u003d52778599577970\u0026ei\u003dEUUIVLDCOITb4waugYGoDg\u0026usg\u003dAFQjCNElZux_fZb7NgKw6wOv1DPeqzmvRA",
+ 					 		"language":"en"
+ 					 	},
+ 					 	{
+ 					 		"unescapedUrl":"http://www.politico.com/story/2014/09/obama-russia-nato-estonia-110547.html",
+ 					 		"url":"http%3A%2F%2Fwww.politico.com%2Fstory%2F2014%2F09%2Fobama-russia-nato-estonia-110547.html",
+ 					 		"title":"\u003cb\u003eBarack Obama\u003c/b\u003e: We will defend our NATO allies",
+ 					 		"titleNoFormatting":"Barack Obama: We will defend our NATO allies",
+ 					 		"location":"",
+ 					 		"publisher":"Politico",
+ 					 		"publishedDate":"Wed, 03 Sep 2014 07:02:48 -0700",
+ 					 		"signedRedirectUrl":"http://news.google.com/news/url?sa\u003dT\u0026ct2\u003dus\u0026fd\u003dS\u0026url\u003dhttp://www.politico.com/story/2014/09/obama-russia-nato-estonia-110547.html\u0026cid\u003d52778599577970\u0026ei\u003dEUUIVLDCOITb4waugYGoDg\u0026usg\u003dAFQjCNGiZMRrTWZ0u14zssPONB5u4P_rQA",
+ 					 		"language":"en"
+ 					 	},
+ 					 	{
+ 					 		"unescapedUrl":"http://news.yahoo.com/obama-aims-show-solidarity-baltics-061535864--politics.html",
+ 					 		"url":"http%3A%2F%2Fnews.yahoo.com%2Fobama-aims-show-solidarity-baltics-061535864--politics.html",
+ 					 		"title":"\u003cb\u003eObama\u003c/b\u003e calls Ukraine \u0026#39;a moment of testing\u0026#39; for West",
+ 					 		"titleNoFormatting":"Obama calls Ukraine \u0026#39;a moment of testing\u0026#39; for West",
+ 					 		"location":"",
+ 					 		"publisher":"Yahoo News",
+ 					 		"publishedDate":"Tue, 02 Sep 2014 23:21:27 -0700",
+ 					 		"signedRedirectUrl":"http://news.google.com/news/url?sa\u003dT\u0026ct2\u003dus\u0026fd\u003dS\u0026url\u003dhttp://news.yahoo.com/obama-aims-show-solidarity-baltics-061535864--politics.html\u0026cid\u003d52778599577970\u0026ei\u003dEUUIVLDCOITb4waugYGoDg\u0026usg\u003dAFQjCNF5y1nwD9q2qNMTrI9vnpOnlyQ6HQ",
+ 					 		"language":"en"
+ 					 	},
+ 					 	{
+ 					 		"unescapedUrl":"http://www.washingtonpost.com/blogs/style-blog/wp/2014/09/03/croeso-i-gymru-barack-obama-heddwch/",
+ 					 		"url":"http%3A%2F%2Fwww.washingtonpost.com%2Fblogs%2Fstyle-blog%2Fwp%2F2014%2F09%2F03%2Fcroeso-i-gymru-barack-obama-heddwch%2F",
+ 					 		"title":"What the president needs to know to navigate NATO — in Welsh. “Hylo! Fy enw i \u003cb\u003e...\u003c/b\u003e",
+ 					 		"titleNoFormatting":"What the president needs to know to navigate NATO — in Welsh. “Hylo! Fy enw i ...",
+ 					 		"location":"",
+ 					 		"publisher":"Washington Post (blog)",
+ 					 		"publishedDate":"Wed, 03 Sep 2014 09:26:24 -0700",
+ 					 		"signedRedirectUrl":"http://news.google.com/news/url?sa\u003dT\u0026ct2\u003dus\u0026fd\u003dS\u0026url\u003dhttp://www.washingtonpost.com/blogs/style-blog/wp/2014/09/03/croeso-i-gymru-barack-obama-heddwch/\u0026cid\u003d52778599577970\u0026ei\u003dEUUIVLDCOITb4waugYGoDg\u0026usg\u003dAFQjCNFrEjDVJ8ghF6gL0CuPxaTRaVw-Jw",
+ 					 		"language":"en"
+ 					 		}
+ 					 ]
+ 				},
+ 				{
+ 					"GsearchResultClass":"GnewsSearch",
+ 					"clusterUrl":"",
+ 					"content":"The tension between the men came to a head in 1988 when Barack visited Kenya to find out more about his late father, \u003cb\u003eBarack Obama\u003c/b\u003e Sr., who abandoned the politician and his mother, Ann Dunham, when he was a young boy. The elder Barack, whom Mark\u0026nbsp;...",
+ 					"unescapedUrl":"http://radaronline.com/exclusives/2014/09/barack-obama-brother-mark-tell-all/",
+ 					"url":"http%3A%2F%2Fradaronline.com%2Fexclusives%2F2014%2F09%2Fbarack-obama-brother-mark-tell-all%2F",
+ 					"title":"Got a Tip? Send it to us",
+ 					"titleNoFormatting":"Got a Tip? Send it to us",
+ 					"location":"",
+ 					"publisher":"Radar Online",
+ 					"publishedDate":"Wed, 03 Sep 2014 15:07:30 -0700",
+ 					"signedRedirectUrl":"http://news.google.com/news/url?sa\u003dT\u0026ct2\u003dus\u0026fd\u003dS\u0026url\u003dhttp://radaronline.com/exclusives/2014/09/barack-obama-brother-mark-tell-all/\u0026cid\u003d52778600991165\u0026ei\u003dEUUIVLDCOITb4waugYGoDg\u0026usg\u003dAFQjCNHiQVs0wEIrrMHAGdNBsPRMiTwWHw",
+ 					"language":"en",
+ 					"image":
+ 						{
+ 							"url":"http://amradaronline.files.wordpress.com/2014/09/barack-obama-pp.jpg?w\u003d551",
+ 							"tbUrl":"http://t3.gstatic.com/images?q\u003dtbn:ANd9GcTBp7C8qm7aJZ0ItNB3gm57CKORbWSzAsw28CCAaKtxzGT0oyFTmxH_zcrw",
+ 							"originalContextUrl":"http://radaronline.com/exclusives/2014/09/barack-obama-brother-mark-tell-all/",
+ 							"publisher":"Radar Online",
+ 							"tbWidth":80,
+ 							"tbHeight":45
+ 						}
+ 				},
+ 				{
+ 					"GsearchResultClass":"GnewsSearch",
+ 						"clusterUrl":"http://news.google.com/news/story?ncl\u003dd6iT1vS4F4WTQ-MTR12z_jfisFJzM\u0026hl\u003den\u0026ned\u003dus",
+ 						"content":"Advocates and a leading Democratic lawmaker are urging President \u003cb\u003eBarack Obama\u003c/b\u003e to not delay making executive fixes to the immigration system, warning other Democrats that holding off could spark a political backlash. Rep. Luis Gutiérrez (D-Ill.) said\u0026nbsp;...",
+ 						"unescapedUrl":"http://www.politico.com/story/2014/09/luis-gutierrez-obama-immigration-110560.html",
+ 						"url":"http%3A%2F%2Fwww.politico.com%2Fstory%2F2014%2F09%2Fluis-gutierrez-obama-immigration-110560.html",
+ 						"title":"Luis Gutiérrez to \u003cb\u003eBarack Obama\u003c/b\u003e: Act on immigration now",
+ 						"titleNoFormatting":"Luis Gutiérrez to Barack Obama: Act on immigration now",
+ 						"location":"",
+ 						"publisher":"Politico",
+ 						"publishedDate":"Wed, 03 Sep 2014 10:47:31 -0700",
+ 						"signedRedirectUrl":"http://news.google.com/news/url?sa\u003dT\u0026ct2\u003dus\u0026fd\u003dS\u0026url\u003dhttp://www.politico.com/story/2014/09/luis-gutierrez-obama-immigration-110560.html\u0026cid\u003d52778601128654\u0026ei\u003dEUUIVLDCOITb4waugYGoDg\u0026usg\u003dAFQjCNENeGJ8JmCx8WsBSii2-DG0V_9lYA",
+ 						"language":"en",
+ 						"image":
+ 						{
+ 							"url":"http://images.politico.com/global/2014/09/03/140903_luis_gutierrez_gty_605.jpg",
+ 							"tbUrl":"http://t1.gstatic.com/images?q\u003dtbn:ANd9GcTIPzZ-XDzazv8KTJE_qhbDMo7guqSe-xdHFH_u_Gt6RF8FZetPKe5nSmdq",
+ 							"originalContextUrl":"http://www.politico.com/story/2014/09/luis-gutierrez-obama-immigration-110560.html",
+ 							"publisher":"Politico",
+ 							"tbWidth":80,
+ 							"tbHeight":43
+ 						},
+ 						"relatedStories":
+ 							[
+ 							 	{
+ 							 		"unescapedUrl":"http://time.com/3258209/barack-obama-immigration-reform-2014/",
+ 							 		"url":"http%3A%2F%2Ftime.com%2F3258209%2Fbarack-obama-immigration-reform-2014%2F",
+ 							 		"title":"\u003cb\u003eObama\u003c/b\u003e Weighs Risks and Rewards on Immigration Action",
+ 							 		"titleNoFormatting":"Obama Weighs Risks and Rewards on Immigration Action",
+ 							 		"location":"",
+ 							 		"publisher":"TIME",
+ 							 		"publishedDate":"Tue, 02 Sep 2014 15:50:59 -0700",
+ 							 		"signedRedirectUrl":"http://news.google.com/news/url?sa\u003dT\u0026ct2\u003dus\u0026fd\u003dS\u0026url\u003dhttp://time.com/3258209/barack-obama-immigration-reform-2014/\u0026cid\u003d52778601128654\u0026ei\u003dEUUIVLDCOITb4waugYGoDg\u0026usg\u003dAFQjCNFYMcPYHBwlLEPr-CHRoTddpyd7Fw",
+ 							 		"language":"en"
+ 							 	},
+ 						        {
+ 							 		"unescapedUrl":"http://www.reuters.com/article/2014/09/03/us-usa-immigration-obama-idUSKBN0GY2AT20140903",
+ 							 		"url":"http%3A%2F%2Fwww.reuters.com%2Farticle%2F2014%2F09%2F03%2Fus-usa-immigration-obama-idUSKBN0GY2AT20140903",
+ 							 		"title":"To delay or not: Timing on immigration reform holds risks for \u003cb\u003eObama\u003c/b\u003e",
+ 							 		"titleNoFormatting":"To delay or not: Timing on immigration reform holds risks for Obama",
+ 							 		"location":"",
+ 							 		"publisher":"Reuters",
+ 							 		"publishedDate":"Wed, 03 Sep 2014 11:47:57 -0700",
+ 							 		"signedRedirectUrl":"http://news.google.com/news/url?sa\u003dT\u0026ct2\u003dus\u0026fd\u003dS\u0026url\u003dhttp://www.reuters.com/article/2014/09/03/us-usa-immigration-obama-idUSKBN0GY2AT20140903\u0026cid\u003d52778601128654\u0026ei\u003dEUUIVLDCOITb4waugYGoDg\u0026usg\u003dAFQjCNHEkt4zNdx7yTpHz3UBV3PzPFQyzQ",
+ 							 		"language":"en"
+ 							 	},
+ 							 	{
+ 							 		"unescapedUrl":"http://news.yahoo.com/u-tax-revenue-rise-obama-legalizes-immigrants-report-093255068--business.html",
+ 							 		"url":"http%3A%2F%2Fnews.yahoo.com%2Fu-tax-revenue-rise-obama-legalizes-immigrants-report-093255068--business.html",
+ 							 		"title":"US tax revenue to rise if \u003cb\u003eObama\u003c/b\u003e legalizes some immigrants: report",
+ 							 		"titleNoFormatting":"US tax revenue to rise if Obama legalizes some immigrants: report",
+ 							 		"location":"",
+ 							 		"publisher":"Yahoo News",
+ 							 		"publishedDate":"Thu, 04 Sep 2014 02:47:32 -0700",
+ 							 		"signedRedirectUrl":"http://news.google.com/news/url?sa\u003dT\u0026ct2\u003dus\u0026fd\u003dS\u0026url\u003dhttp://news.yahoo.com/u-tax-revenue-rise-obama-legalizes-immigrants-report-093255068--business.html\u0026cid\u003d52778601128654\u0026ei\u003dEUUIVLDCOITb4waugYGoDg\u0026usg\u003dAFQjCNFSAY_XqCGv1Jj_YaT5bQMmqJE4sw",
+ 							 		"language":"en"
+ 							 	},
+ 							 	{
+ 							 		"unescapedUrl":"http://dailycaller.com/2014/09/02/obama-invents-immigration-rights-for-foreigners/",
+ 							 		"url":"http%3A%2F%2Fdailycaller.com%2F2014%2F09%2F02%2Fobama-invents-immigration-rights-for-foreigners%2F",
+ 							 		"title":"\u003cb\u003eObama\u003c/b\u003e Invents \u0026#39;Immigration Rights\u0026#39; For Foreigners",
+ 							 		"titleNoFormatting":"Obama Invents \u0026#39;Immigration Rights\u0026#39; For Foreigners",
+ 							 		"location":"",
+ 							 		"publisher":"Daily Caller",
+ 							 		"publishedDate":"Tue, 02 Sep 2014 20:56:15 -0700",
+ 							 		"signedRedirectUrl":"http://news.google.com/news/url?sa\u003dT\u0026ct2\u003dus\u0026fd\u003dS\u0026url\u003dhttp://dailycaller.com/2014/09/02/obama-invents-immigration-rights-for-foreigners/\u0026cid\u003d52778601128654\u0026ei\u003dEUUIVLDCOITb4waugYGoDg\u0026usg\u003dAFQjCNEqcpDGHqtFP-M_WnFoJGX6qmMPuw",
+ 							 		"language":"en"
+ 							 	},
+ 						        {
+ 							 		"unescapedUrl":"http://www.powerlineblog.com/archives/2014/09/immigration-rights-what-are-they.php",
+ 							 		"url":"http%3A%2F%2Fwww.powerlineblog.com%2Farchives%2F2014%2F09%2Fimmigration-rights-what-are-they.php",
+ 							 		"title":"“Immigration Rights”–What Are They?",
+ 							 		"titleNoFormatting":"“Immigration Rights”–What Are They?",
+ 							 		"location":"",
+ 							 		"publisher":"Power Line (blog)",
+ 							 		"publishedDate":"Mon, 01 Sep 2014 18:41:15 -0700",
+ 							 		"signedRedirectUrl":"http://news.google.com/news/url?sa\u003dT\u0026ct2\u003dus\u0026fd\u003dS\u0026url\u003dhttp://www.powerlineblog.com/archives/2014/09/immigration-rights-what-are-they.php\u0026cid\u003d52778601128654\u0026ei\u003dEUUIVLDCOITb4waugYGoDg\u0026usg\u003dAFQjCNGzNvqSeiz52qPsk4jHMbRveSrZ-g",
+ 							 		"language":"en"
+ 							 	}
+ 							 ]
+ 						}
+ 				],
+			"cursor":
+			{
+				"pages":
+					[
+					 	{
+					 		"start":"0",
+					 		"label":1
+					 	},
+					 	{
+					 		"start":"4",
+					 		"label":2
+					 	},
+					 	{
+					 		"start":"8",
+					 		"label":3
+					 	},
+					 	{
+					 		"start":"12",
+					 		"label":4
+					 	},
+					 	{
+					 		"start":"16",
+					 		"label":5
+					 	},
+					 	{
+					 		"start":"20",
+					 		"label":6
+					 	},
+					 	{
+					 		"start":"24",
+					 		"label":7
+					 	},
+					 	{
+					 		"start":"28",
+					 		"label":8
+					 	}
+					 ],
+				"estimatedResultCount":"6705158",
+				"currentPageIndex":0,
+				"moreResultsUrl":"http://news.google.com/nwshp?oe\u003dutf8\u0026ie\u003dutf8\u0026source\u003duds\u0026q\u003dbarack+obama\u0026hl\u003den\u0026start\u003d0"
+			}
+	}, 			
+ 	"responseDetails": null, 
+ 	"responseStatus": 200
+ }
