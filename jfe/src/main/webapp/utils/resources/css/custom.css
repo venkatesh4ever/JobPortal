@@ -1,0 +1,29 @@
+.dottedLines {
+	border-bottom: 1px dotted #c0c0c0;
+}
+
+.hrLines {
+	border-bottom: 1px #c0c0c0;
+}
+
+.audioDiv {
+	height: 260px;
+	width: 260px;
+	background-color: #eeeeee;
+}
+
+.audioLeftDiv {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.videoLeftDiv{
+	margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.videoDiv {
+    height: 260px;
+    width: 260px;
+    background-color: #eeeeee;
+}

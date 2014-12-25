@@ -1,0 +1,274 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.job</groupId>
+	<artifactId>jfe</artifactId>
+	<packaging>war</packaging>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>jfe Maven Webapp</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<slf4j.version>1.6.0</slf4j.version>
+		<spring.maven.artifact.version>4.0.7.RELEASE</spring.maven.artifact.version>
+		<spring.osgi.version>1.0.2</spring.osgi.version>
+		<equinox.ver>3.2.2</equinox.ver>
+		<log4j.version>1.2.14</log4j.version>
+		<mongojavadriver.version>2.11.1</mongojavadriver.version>
+		<springdata.version>1.2.1.RELEASE</springdata.version>
+		<thymeleaf.version>2.1.3.RELEASE</thymeleaf.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>${spring.maven.artifact.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>${spring.maven.artifact.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+			<version>${spring.maven.artifact.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>${spring.maven.artifact.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${spring.maven.artifact.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>jcl-over-slf4j</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>${log4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.5</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.3.2</version>
+		</dependency>
+
+
+		<!-- Spring Data for MongoDB -->
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-mongodb</artifactId>
+			<version>${springdata.version}</version>
+		</dependency>
+
+		<!-- Java MongoDB Driver -->
+		<dependency>
+			<groupId>org.mongodb</groupId>
+			<artifactId>mongo-java-driver</artifactId>
+			<version>${mongojavadriver.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.thymeleaf</groupId>
+			<artifactId>thymeleaf</artifactId>
+			<version>${thymeleaf.version}</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.thymeleaf</groupId>
+			<artifactId>thymeleaf-spring4</artifactId>
+			<version>${thymeleaf.version}</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<!-- Spring - social securities -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot</artifactId>
+			<version>1.1.8.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<version>1.1.8.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+			<version>1.1.8.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+			<version>1.1.8.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+			<version>1.1.8.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+			<version>1.1.8.RELEASE</version>
+		</dependency>
+		<!-- social references -->
+		<dependency>
+			<groupId>org.springframework.social</groupId>
+			<artifactId>spring-social-web</artifactId>
+			<version>1.1.0.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.social</groupId>
+			<artifactId>spring-social-core</artifactId>
+			<version>1.1.0.RELEASE</version>
+		</dependency>
+		<!--<dependency> <groupId>org.springframework.social</groupId> <artifactId>spring-social-test</artifactId> 
+			<version>1.1.0.RELEASE</version> </dependency> -->
+
+
+		<dependency>
+			<groupId>org.springframework.social</groupId>
+			<artifactId>spring-social-security</artifactId>
+			<version>1.1.0.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.social</groupId>
+			<artifactId>spring-social-config</artifactId>
+			<version>1.1.0.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.social</groupId>
+			<artifactId>spring-social-facebook</artifactId>
+			<version>1.1.0.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.social</groupId>
+			<artifactId>spring-social-twitter</artifactId>
+			<version>1.1.0.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.social</groupId>
+			<artifactId>spring-social-linkedin</artifactId>
+			<version>1.0.0.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.social</groupId>
+			<artifactId>spring-social-github</artifactId>
+			<version>1.0.0.M4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.social</groupId>
+			<artifactId>spring-social-google</artifactId>
+			<version>1.0.0.RELEASE</version>
+		</dependency>
+		<!-- <dependency> <groupId>org.springframework.social</groupId> <artifactId>spring-social-live</artifactId> 
+			<version>1.0.0-SNAPSHOT</version> <exclusions> <exclusion> <groupId>javax.servlet</groupId> 
+			<artifactId>servlet-api</artifactId> </exclusion> </exclusions> </dependency> -->
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>14.0.1</version>
+		</dependency>
+	</dependencies>
+	<build>
+		<finalName>jfe</finalName>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<!-- ================================================ -->
+	<!-- Repository Configuration -->
+	<!-- ================================================ -->
+
+	<repositories>
+		<repository>
+			<id>apache.m2.incubator</id>
+			<name>Apache M2 Incubator Repository</name>
+			<url>http://people.apache.org/repo/m2-incubating-repository/</url>
+		</repository>
+		<repository>
+			<id>eclipse-repository</id>
+			<name>Eclipse Repository</name>
+			<url>http://repo1.maven.org/eclipse/</url>
+		</repository>
+		<repository>
+			<id>spring-ext</id>
+			<name>Spring External Dependencies Repository</name>
+			<url>
+                https://springframework.svn.sourceforge.net/svnroot/springframework/repos/repo-ext/
+            </url>
+		</repository>
+		<repository>
+			<id>spring-milestones</id>
+			<name>Spring Milestones</name>
+			<url>http://repo.spring.io/milestone</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+
+
+		<repository>
+			<id>i21-s3-osgi-repo</id>
+			<name>i21 osgi artifacts repo</name>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<url>http://s3.amazonaws.com/maven.springframework.org/osgi</url>
+		</repository>
+
+
+		<repository>
+			<id>i21-s3-maven-repo</id>
+			<name>i21 S3 milestone repo</name>
+			<url>http://s3.amazonaws.com/maven.springframework.org/milestone</url>
+		</repository>
+
+		<!-- Spring-DM snapshot repository - disabled by default <repository> <snapshots><enabled>true</enabled></snapshots> 
+			<id>springframework.org</id> <name>Springframework Maven SNAPSHOT Repository</name> 
+			<url>http://s3.amazonaws.com/maven.springframework.org/snapshot</url> </repository> -->
+	</repositories>
+
+	<pluginRepositories>
+		<pluginRepository>
+			<id>maven-repo</id>
+			<name>maven repo</name>
+			<url>http://repo1.maven.org/maven2/</url>
+		</pluginRepository>
+
+	</pluginRepositories>
+</project>

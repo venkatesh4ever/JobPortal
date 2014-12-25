@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <link rel="icon" th:href="@{/utils/ico/favicon.ico}"/>
+
+    <title>JFE - Seeker information</title>
+
+    <!-- Bootstrap core CSS -->
+    <link th:href="@{/utils/css/bootstrap.min.css}" rel="stylesheet"/>
+    
+    <!-- Custom styles for this page -->
+    <link th:href="@{/utils/css/custom.min.css}" rel="stylesheet"/>
+    
+    <!-- Custom css -->
+    <link th:href="@{/utils/css/narrow.css}" rel="stylesheet"/>
+    <link th:href="@{/utils/css/custom.css}" rel="stylesheet"/>
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script th:src="@{/utils/js/ie8-responsive-file-warning.js}"></script><![endif]-->
+    <script th:src="@{/utils/js/ie-emulation-modes-warning.js}"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script th:src="@{/utils/js/ie10-viewport-bug-workaround.js}"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header">
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="#">Seeker</a></li>
+          <li><a href="#">Search</a></li>
+          <li><a href="#">Provider</a></li>
+        </ul>
+        <h3 class="text-muted">Job for Everyone</h3>
+      </div>
+
+      <div id="jobSeekerPanel" class="row marketing">
+      <form accept-charset="UTF-8" th:action="@{/seekerAction}" method="post" role="form">
+      <h4>Provide your details and submit the form</h4>
+        <div class="col-md-12">
+            <p><input id="location" name="location" class="form-control" placeholder="Location" required="required" autofocus="autofocus"/></p>
+			<p> 
+			 <div class="row responsive-utilities-test visible-on">
+			  <div class="col-xs-8 col-sm-6">
+			    <input id="expectedRate" name="expectedRate" class="form-control input-xs" placeholder="Expected Rate" required="required" autofocus="autofocus"/>
+			  </div>
+			  <div class="col-xs-8 col-sm-6">
+			    <input id="ratePer" name="ratePer" class="form-control input-xs" placeholder="Per" required="required" autofocus="autofocus"/>
+			  </div>
+			 </div>
+			</p>
+            <p><input id="tag" name="tag" class="form-control" placeholder="Key Tags" required="required" autofocus="autofocus"/></p>
+            <p><input id="experience" name="experience" class="form-control" placeholder="Years of Experience" required="required" autofocus="autofocus"/></p>
+            <p><input id="domain" name="domain" class="form-control" placeholder="Domain" required="required" autofocus="autofocus"/></p>
+            <p>
+            <label class="checkbox-inline">
+                 <input type="checkbox" id="profileOption" value="profileOption"/> Are you willing to share the below option to others
+            </label>
+            </p>
+            <p>
+               <div class="form-group" style="margin-left:20px;">
+                  <label for="pwd">Upload your cv(resume):</label>
+                  <div class="row">  
+                      <div class="col-md-8">
+                          <input type="file" id="resume" name="resume" class="filestyle" data-buttonText="Choose file" />
+                      </div>
+                  </div>
+              </div>
+            </p>
+            <p style="margin-left:20px;">
+                <input id="reference" name="reference" class="form-control" placeholder="Linked-in profile" autofocus="autofocus"/>
+            </p>
+            
+            <hr class="dottedLines"/>
+            
+            <div class="row featurette">
+		        <div class="col-md-7">
+		        <div class="audioLeftDiv">
+		          <h4 class="featurette-heading">Audio. <span class="text-muted">A sound representation of yourself.</span></h4>
+		          <p>
+		              Record a sound about yourself - Maximum of 2 minutes length. Record and Playback the captured file, click apply if you are fine about the sound track
+		              <br/>(or) upload the track using the file link below.
+		              <div class="row">  
+                      <div class="col-md-6">
+                          <input type="file" id="audio" name="audio" class="filestyle" data-buttonText="Choose audio" />
+                      </div>
+                  </div>
+		          </p>
+		        </div>
+		        </div>
+		        <div class="col-md-5">
+		          <div class="audioDiv">
+                        <p>
+                        <br/>
+                        <br/>
+                        &nbsp;&nbsp;&nbsp;Capture audio here
+                        <br/>
+                        <img class="featurette-image img-responsive" th:src="@{/utils/images/mic.png}" />
+                        &nbsp;&nbsp;&nbsp;Further style goes here..
+                        </p>
+				  </div>
+		        </div>
+		    </div>
+		    <div><p>&nbsp;</p></div>
+		    <div class="row featurette">
+                <div class="col-md-7">
+                <div class="videoLeftDiv">
+                  <h4 class="featurette-heading">Video. <span class="text-muted">A video representation of yourself.</span></h4>
+                  <p>
+                      Capture a video about yourself - Maximum of 2 minutes length. Capture and Playback the captured file, click apply if you are fine about the video track 
+                      <br/>(or) upload the track using the file link below.
+                      <div class="row">  
+                      <div class="col-md-6">
+                          <input type="file" id="video" name="video" class="filestyle" data-buttonText="Choose video" />
+                      </div>
+                  </div>
+                  </p>
+                </div>
+                </div>
+                <div class="col-md-5">
+                  <div class="videoDiv">
+                        <p>
+                        <br/>
+                        &nbsp;&nbsp;&nbsp;Capture video here
+                        </p>
+                  </div>
+                </div>
+            </div>
+		    <div><p>&nbsp;</p></div>
+        </div><!-- //End of col-md-12 -->
+        <div class="col-md-12">
+            <div align="center">
+            <p><button type="submit" class="btn btn-primary">Submit &raquo;</button></p>
+            </div>
+        </div>
+      
+      </form>
+      </div> <!-- //End of jobSeekerPanel -->
+
+      <div class="footer">
+        <p>&copy; JFE-Company 2014</p>
+      </div>
+
+    </div> <!-- /container -->
+
+
+     <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script th:src="@{/utils/js/jquery.min-1.11.1.js}"></script>
+    <script th:src="@{/utils/js/bootstrap.min.js}"></script>
+  </body>
+</html>
